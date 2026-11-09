@@ -15,6 +15,9 @@ I decide to install ubuntu server on this machine because the PC have a good spe
 ### 3.2 Remote Access (SSH)
 First decide to configured the SSH so i can securely access the machine without needing to connect the machine to a screen. First i change the default port to 2222 so if someone is trying to scan the network it would make them check every port instead of the default 22 port. Next I change the 'permitrootlogin', then maxauthtries 3, and pubkeyauthentication yes. After that configuration I installed tailscale on the machine and opening the url that it gives on my host machine and using the email that is being shared with my mentor on this project.
 
+### 3.3 AdGuard Home
+I installed AdGuard with the curl command and using the automatic install and then after the installation was finished, I visited the site with my local server IP. After that I test it out on my local machine with the command 'nslookup ' 
+
 ## 4. Problems & Troubleshooting
 
 | Problem | Cause | Solution |
